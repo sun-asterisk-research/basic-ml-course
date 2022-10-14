@@ -13,8 +13,8 @@ def is_triangle(a, b, c):
     # Write your code here.
     pass  # Remove this line
 
-print(is_triangle(1, 2, 3))  # Expected output: "False"
-print(is_triangle(2, 2, 3))  # Expected output: "True"
+print(is_triangle(1, 2, 3))  # Expected output: False
+print(is_triangle(2, 2, 3))  # Expected output: True
 ```
 
 ## Assignment 2 (1 pt)
@@ -96,7 +96,7 @@ class Student:
 
 student = Student("John", 85)
 print(student.get_score())  # Expected output: 85
-student.describe()  # Expected output: John: 85
+student.describe()  # Expected output: "John: 85"
 ```
 
 ## Assignment 7 (1 pt)
@@ -104,7 +104,7 @@ student.describe()  # Expected output: John: 85
 Complete the `Employee` class by:
 
 * Write code that calls the `__init__` method of the base class to initialize attributes.
-* Write a `speak` method that receives a word as its parameter and outputs `Employee <employee name> spoke <word>`
+* Write a `speak` method that receives a word as its parameter and outputs `"Employee <employee name> spoke <word>"`
 
 ```
 class Person:
@@ -124,12 +124,12 @@ class Employee(Person):
         pass
 
 employee = Employee("David")
-print(employee.speak("hello"))  # Expected output: Employee David spoke hello
+print(employee.speak("hello"))  # Expected output: "Employee David spoke hello"
 ```
 
 ## Assignment 8 (1 pt)
 
-Print all the key-value pairs of a dictionary using `for` loop.
+Print all the key-value pairs of a dictionary using `for` loop. Each line is a key-value pair.
 
 Hint: to get all the keys of a dictionary, use `.keys()`.
 
